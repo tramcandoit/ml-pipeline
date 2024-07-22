@@ -20,9 +20,9 @@ parser.add_argument("--y_path",
 #parser.add_argument("--max_depth",
 #                    type=int,
 #                    help="Max depth of each tree in random forest model")
-parser.add_argument("--n_jobs",
-                    type=int,
-                    help="Number of cpu cores to be used for processing")
+#parser.add_argument("--n_jobs",
+#                    type=int,
+ #                   help="Number of cpu cores to be used for processing")
 def get_s3(s3_path):
     s3 = S3FileSystem()
     return np.load(s3.open(s3_path), allow_pickle=True)
