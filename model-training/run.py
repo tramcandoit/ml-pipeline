@@ -17,9 +17,9 @@ parser.add_argument("--y_path",
 #parser.add_argument("--n_estimators",
 #                    type=int,
 #                    help="Number of trees in random forest")
-parser.add_argument("--max_depth",
-                    type=int,
-                    help="Max depth of each tree in random forest model")
+#parser.add_argument("--max_depth",
+#                    type=int,
+#                    help="Max depth of each tree in random forest model")
 parser.add_argument("--n_jobs",
                     type=int,
                     help="Number of cpu cores to be used for processing")
